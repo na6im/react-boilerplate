@@ -2,4 +2,11 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: L5pBG3TFgLT59ZgTW7rVQWZZXxmO5WFpUMdKbxBY7zppXSxRyLiDFVVtC9U95VsYwQ3xTop+VaFKan+oHeCcKOsZREg8sq45MHUjkJA7GtaGejZcAGWWEasRiEYhiwsGvkFkMyaESA+qagMlZiO9U1XbHEqVCFHy+3Xpyyh03iwkBY23H9pTl+YEiTfF24jWnIydjghT5coZh3SSRyWCkjRRaxa+JvH96dfm3ixKvvdpAs6NqYCCf6ZsXfaNeNecN02nc3jtr5zAFGWZGLbW1/Wl/fTdGJH4NW5XiFaB03P4h6eD3c1S513VMA8LkKOstlWlO8ldGWxJmlbYZvFqXzQ0s9m1s7KHm+TFBcsI4ARZSRLWzwb9PvC034R77g2nPxjA0tol0hipBAIQyzbA5Z89OU1S/6kqHmcyWhl3eADO3pKucY7mjlmcQkjqDby/KslvAoxapxT6sQ24vPe5tg+RkTlKNe41YY6ef3D4DyDjJZLRuMUgUPfjnDiuomS5seuA7BpC18fd/PvoqPklEJ4uWreBYia65gphNMpF3szP1w2nX0iGsXbt7ACDDtle0VF0r3yxKJ6c1mJJYWIXFPbvemBF/IVK/Z9G+qp0tnPO+MzuV1O096g1QH89a+s88BUYuMQ3kXErXQPvRuekxp6nseXESwfHFiQ0ctfCbPc=
+  app: boilerplatetest3991
+  on:
+    repo: na6im/react-boilerplate
