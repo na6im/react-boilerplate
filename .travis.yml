@@ -1,9 +1,7 @@
 language: node_js
-node_js:
-  - "9"
-  - "8"
-  - "6"
-cache: yarn
-env:
-  global:
-    - NODE_ENV=test
+node_js: node
+cache: 
+  yarn
+  directories:
+    - node_modules
+
